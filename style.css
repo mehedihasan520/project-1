@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url('font/Poppins-Regular.ttf');
+}
+html,body {
+    width: 1440px;
+    height: 1955px;
+    background-color: bisque;
+}
+body *{
+    font-family: "Poppins";
+}
+.container {
+    width: 60%;
+    height: 90%;
+    background-color: white;
+    margin: 50px auto;
+    padding: 30px 30px;
+    border-radius: 10px;
+    font-family: outfit-regular;
+}
+
+.container img {
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.preparation-area {
+    background-color: skyblue;
+    border-radius: 5px;
+}
+
+
+table {
+    width: 100%; 
+}
+
+table, tr, td {
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
